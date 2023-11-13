@@ -26,9 +26,9 @@ def div():
 
 
 
-
+# declarei a variavel operador
 operador = 1
-#captura de dados do usuário
+
 
 # usei while para trocar o valor da variavel operador , baseado na escolha do usuário
 
@@ -40,7 +40,9 @@ while operador:
     print("4. Divisão ")
     print("0.Sair")
     operador = int(input("Digite um número válido para as opções acima :"))
+
 # a partir daqui chamo a função de acordo com a escolha do usuário
+
     if (operador == 1):
         soma()
     if (operador == 2):
